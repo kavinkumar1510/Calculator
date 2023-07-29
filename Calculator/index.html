@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <center><h1>Calculator</h1></center>
+    <div class="box">
+        <input type="text" id="in" placeholder="Enter your value"><br>
+        <div class="inner">
+        <button onclick = "append('9')" ><b>9</b></button>
+        <button onclick = "append('8')"><b>8</b></button>
+        <button onclick = "append('7')"><b>7</b></button>
+        <button onclick = "clearInput('')"><b>AC</b></button>
+        <button onclick = "append('*')"><b>*</b></button>
+        <br>
+        <button onclick = "append('6')"><b>6</b></button>
+        <button onclick = "append('5')"><b>5</b></button>
+        <button onclick = "append('4')"><b>4</b></button>
+        <button onclick = "append('+')"><b>+</b></button>
+        <button onclick = "append('/')"><b>/</b></button>
+        <br>
+        <button onclick = "append('3')"><b>3</b></button>
+        <button onclick = "append('2')"><b>2</b></button>
+        <button  onclick = "append('1')"><b>1</b></button>
+        <button onclick = "append('-')"><b>-</b></button>
+        <button onclick = "append('%')"><b>%</b></button>
+       <br>
+        <button onclick = "append('0')"><b>0</b></button>
+        <button onclick = "append(' ')">Space</button>
+        <button onclick = "append('.')"><b>.</b></button>
+        <button style="width: 150px;" onclick="msg()"><b>=</b></button>
+    </div>
+    </div>
+
+</body>
+
+</html>
